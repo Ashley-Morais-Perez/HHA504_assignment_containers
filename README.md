@@ -25,6 +25,6 @@
 <img width="710" alt="image" src="https://github.com/user-attachments/assets/e3c9dcc6-5aa9-4238-be07-a5b2aa7a25fd">
 
 ### To check out the webpage click here: [Webpage](https://flaskapp504-563579384928.us-central1.run.app) 
-
+(A cool feature I found from the templates: you can hover over the image to change it from black-and-white to color)
 
 
