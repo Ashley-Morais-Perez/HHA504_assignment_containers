@@ -1,0 +1,33 @@
+<!-- HTML-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  clifford: '#da373d',
+                }
+              }
+            }
+          }
+        </script>
+</head>
+<body>
+  <h1 class="text-5xl font-bold dark:text-white">AHI Class: 504 Docker Containers</h1>  
+
+  <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+    <a href="#">
+      <img class="rounded-lg" src={{ url_for('static', filename='image.png')}} alt="image description">
+    </a>
+    <figcaption class="absolute px-4 text-lg text-white bottom-6">
+        <p>This is the image that will be used for the HHA 504 Docker Example</p>
+    </figcaption>
+  </figure>
+  
+</body>
+</html>
